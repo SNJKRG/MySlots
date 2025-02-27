@@ -1,0 +1,217 @@
+.kanit-thin {
+    font-family: "Kanit", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .kanit-extralight {
+    font-family: "Kanit", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .kanit-light {
+    font-family: "Kanit", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .kanit-regular {
+    font-family: "Kanit", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .kanit-medium {
+    font-family: "Kanit", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .kanit-semibold {
+    font-family: "Kanit", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .kanit-bold {
+    font-family: "Kanit", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .kanit-extrabold {
+    font-family: "Kanit", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .kanit-black {
+    font-family: "Kanit", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .kanit-thin-italic {
+    font-family: "Kanit", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .kanit-extralight-italic {
+    font-family: "Kanit", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .kanit-light-italic {
+    font-family: "Kanit", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .kanit-regular-italic {
+    font-family: "Kanit", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .kanit-medium-italic {
+    font-family: "Kanit", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .kanit-semibold-italic {
+    font-family: "Kanit", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .kanit-bold-italic {
+    font-family: "Kanit", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .kanit-extrabold-italic {
+    font-family: "Kanit", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .kanit-black-italic {
+    font-family: "Kanit", serif;
+    font-weight: 900;
+    font-style: italic;
+  }  
+
+  .fc-daygrid-day {
+    padding: 0 !important;
+}
+.fc-daygrid-day-number {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    line-height: auto;
+    text-align: center;
+    font-size: 1.5em;
+    color: black;
+}
+.fc-daygrid-day.fc-day-today {
+    background-color: #ffeb3b !important;
+}
+
+.calendar {
+    width: 30vw;
+    max-width: 30vw;
+    min-height: 30vw;
+    height: 45vh;
+    min-height: 45vh;
+    max-height: 45vh;
+    margin: 2vw;
+}
+
+body{
+    padding: 5% 5%;
+    background-color: rgb(255, 255, 255);
+    font-family: Kanit;
+}
+
+.bio{
+  margin-right: 50px;
+  margin-left: 2vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.bio-img{
+    border-radius: 50%;
+}
+
+.time-button{
+    width: 9vw;
+    height: 7vh;
+    font-family: Kanit;
+    font-weight: bold;
+    background-color: rgb(0, 30, 178);
+    color: white;
+    border: 1px solid black;
+    font-size: 1em;
+    letter-spacing: 3px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.time-button:hover{
+    background-color: rgb(255, 152, 17);
+    border-color: rgb(216, 133, 24);
+    transform: translateY(-5px);
+    transform: scale(1.1);
+}
+
+#main-form{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    height: 55vh;
+    max-height: 55vh;
+    padding: 1vw 1vw;
+}
+
+.selector{
+    display: flex;
+    flex-direction: row;
+}
+
+.time{
+    box-shadow: 2px 2px 5px rgba(11, 11, 11, 0.25);
+    margin-left: 50px;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    margin-right: 2vw;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    min-width: 20vw;
+    max-width: 20vw;
+    min-width: 20vw;
+}
+
+#form-time{
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+}
+
+
+h3{
+    margin: 5px;
+    text-wrap: nowrap;
+}
+
+.calendar-section{
+  display: flex;
+  flex-direction: column;
+}
